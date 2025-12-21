@@ -15,3 +15,15 @@ $ git remote get-url <remote>
 ```bash
 $ git branch --show-current
 ```
+
+#### Get GitHub PRs
+
+The list will filter PRs by:
+- Opened
+- Author (same that sent the request)
+- Branch name
+
+```bash
+$ gh pr list --state open --author "@me" --head "<branch name>" --json number,title,createdAt,headRefName
+```
+
