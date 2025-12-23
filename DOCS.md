@@ -29,10 +29,14 @@ $ gh pr list --state open --author "@me" --head "{branch name}" --json number,ti
 
 #### Get GitHub PR that belongs to the current branch 
 
-This includes the last commit id
+This includes:
+- Target branch
+- Current branch
+- Current commit id
+- PR number
 
 ```bash
-$ gh pr view --json headRefOid,number
+$ gh pr view --json baseRefName,headRefName,headRefOid,number
 ```
 
 #### Get the last commit id (local)
