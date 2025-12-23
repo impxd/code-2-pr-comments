@@ -27,3 +27,8 @@ The list will filter PRs by:
 $ gh pr list --state open --author "@me" --head "<branch name>" --json number,title,createdAt,headRefName
 ```
 
+#### Get the last commit id (local)
+
+```bash
+$ git rev-parse HEAD
+```
