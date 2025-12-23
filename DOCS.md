@@ -53,3 +53,9 @@ $ gh api \
   /repos/{owner}/{repo}/pulls/{pull_number}/comments \
    -f body=$'Multiple `lines` test 7\n2° line\n3° line' -f 'commit_id={commit_id}' -f 'path=test.clj' -F "line=26" -f 'side=RIGHT'
 ```
+
+#### Get updated files in the current branch from main
+
+```bash
+$ git diff --name-only main...HEAD
+```
