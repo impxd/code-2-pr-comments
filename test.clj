@@ -20,4 +20,9 @@
 ;; 2° line
 (println "Hello, World!")
 
+;; 💬 Multiple lines test 7
+;; 2° line
+;; 3° line
+(println "Hello, World!")
+
 
