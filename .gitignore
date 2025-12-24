@@ -1,0 +1,33 @@
+/target
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+*.iml
+/.idea
+/.clj-kondo/*
+!/.clj-kondo/config.edn
+/.lsp/*
+!/.lsp/config.edn
+.DS_Store
+.calva
+/projectFilesBackup
+
+.cpcache
+/.cursor
+modules/**/.cpcache
+modules/**/.idea
+modules/**/target
+modules/**/classes
+modules/**/checkouts
+modules/**/.lein-*
+modules/**/.nrepl-port
+# General ignore rules
+# Exception for config.edn files
+modules/**/.clj-kondo/**/
+modules/**/.lsp/**/
+examples.edn
